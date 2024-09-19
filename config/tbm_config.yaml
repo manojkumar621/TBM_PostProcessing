@@ -1,0 +1,35 @@
+
+
+#split wsis
+wsis_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis"
+wsi_tiles_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsi_tiles"
+
+#run model inference on tiles
+name: "ResUnetTrain3"
+valid: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsi_tiles"
+pred: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/predicted_wsi_tiles"
+checkpoints: "/home/manojkumargalla/PostProcess/models/ResUnetTrain_checkpoint_0209.pt"
+
+#Save annotations
+predicted_annotations_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/TBM_Annotations"
+filtered_annotations_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/Filtered_TBM_Annotations"
+
+#filter_masks
+filtered_wsis: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsis"
+filtered_tiles: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsi_tiles/"
+tubule_annotations: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/Tubule_Annotations"
+binaries: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/binaries"
+
+
+#Train
+train: "/home/manojkumargalla/ResUNet/data/train"
+log: "logs"
+logging_step: 10
+validation_interval: 100 # Save and valid have same interval
+
+
+batch_size: 16
+lr: 0.001
+RESNET_PLUS_PLUS: True
+IMAGE_SIZE: 512
+CROP_SIZE: 512

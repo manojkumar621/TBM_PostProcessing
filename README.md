@@ -28,7 +28,7 @@ Predicted TBMS after post processing
 <img src="images/tbms_filtered.png" alt="plot" width="200"/>
 
 
-# Instructions to Run the Code 
+# Instructions to Run the notebooks 
 ## Ensure you have the WSI images uploaded and adjust the file paths accordingly in the notebooks provided.
 
 1. Run Split_WSI.ipynb notebook to split the original WSI images into small tiles.
@@ -37,6 +37,10 @@ Predicted TBMS after post processing
 4. Run filter_masks_.ipynb to load the binary masks of tubules and tbms to perform post processing techniques to filter out noise in the predicted TBMs.
 5. Run split_filtered_images.ipynb to split the filtered large png images into small tiles.
 6. Run Save_annotations.ipynb again to save the annotations of the filtered binary masks.
+
+# Instructions to Run the Pipeline
+## Edit the tbm_config file with appropriate paths and parameters
+Run TBM_pipeline.py with correct config file name
 
 
 # References

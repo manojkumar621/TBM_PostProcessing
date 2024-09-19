@@ -1,0 +1,257 @@
+2024-09-17 16:01:00,965 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:01:58,691 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:02:56,017 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:03:56,605 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:05:11,210 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:05:19,405 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:06:53,413 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:07:02,083 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:07:25,613 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:07:42,977 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:07:42,977 - INFO - checked!!!!
+2024-09-17 16:08:36,646 - INFO - Started splitting WSI images from /home/manojkumargalla/PostProcess/config/tbm_config.yaml
+2024-09-17 16:08:36,646 - INFO - checked!!!!
+2024-09-17 16:15:13,563 - INFO - Started splitting WSI images from {'wsi_path': '/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis', 'train': '/home/manojkumargalla/ResUNet/data/train', 'valid': '/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/batch1/3/tiles_3/', 'pred': '/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/batch1/3/predicted_tiles_3/', 'log': 'logs', 'logging_step': 10, 'validation_interval': 100, 'checkpoints': '/home/manojkumargalla/PostProcess/models/ResUnetTrain_checkpoint_0209.pt', 'batch_size': 16, 'lr': 0.001, 'RESNET_PLUS_PLUS': True, 'IMAGE_SIZE': 512, 'CROP_SIZE': 512}
+2024-09-17 16:15:13,563 - INFO - checked!!!!
+2024-09-17 16:27:07,680 - INFO - checked!!!!
+2024-09-17 16:27:18,723 - INFO - checked!!!!
+2024-09-17 16:27:42,342 - INFO - checked!!!!
+2024-09-17 16:30:16,824 - INFO - checked!!!!
+2024-09-17 16:30:16,825 - INFO - check completed in 0.00 seconds.
+2024-09-17 16:32:52,687 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 16:32:57,891 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 16:32:57,891 - ERROR - info() missing 1 required positional argument: 'msg'
+2024-09-17 16:32:57,892 - INFO - split completed in 5.21 seconds.
+2024-09-17 16:38:16,454 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 16:38:21,330 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 16:38:21,330 - ERROR - info() missing 1 required positional argument: 'msg'
+2024-09-17 16:38:21,331 - INFO - split completed in 4.88 seconds.
+2024-09-17 16:38:42,316 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 16:38:47,134 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 16:38:47,134 - ERROR - info() missing 1 required positional argument: 'msg'
+2024-09-17 16:38:47,135 - INFO - split completed in 4.82 seconds.
+2024-09-17 16:39:32,165 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 16:39:32,717 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009781_PAS_2of2.svs
+2024-09-17 16:39:32,717 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009782_PAS_1of2.svs
+2024-09-17 16:39:35,626 - ERROR - Exception while processing file name: S-1908-009782_PAS_1of2 - name 'outdirbase' is not defined
+2024-09-17 16:39:37,144 - ERROR - Exception while processing file name: S-1908-009781_PAS_2of2 - name 'outdirbase' is not defined
+2024-09-17 16:39:37,794 - INFO - Finished splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 16:39:37,795 - INFO - split completed in 5.63 seconds.
+2024-09-17 19:16:36,738 - ERROR - No such comm target registered: jupyter.widget.control
+2024-09-17 19:16:36,741 - WARNING - No such comm: 2ef0a52a-ec78-4d23-8d3b-f02be978a1f6
+2024-09-17 19:53:36,383 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 19:53:36,967 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009782_PAS_1of2.svs
+2024-09-17 19:53:36,967 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009781_PAS_2of2.svs
+2024-09-17 19:53:41,160 - ERROR - Exception while processing file name: S-1908-009782_PAS_1of2 - name 'outdirbase' is not defined
+2024-09-17 19:53:41,513 - ERROR - Exception while processing file name: S-1908-009781_PAS_2of2 - name 'outdirbase' is not defined
+2024-09-17 19:53:42,144 - INFO - Finished splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 19:53:42,145 - INFO - split completed in 5.76 seconds.
+2024-09-17 19:55:44,586 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 19:55:45,150 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 19:55:45,151 - ERROR - '<=' not supported between instances of 'str' and 'int'
+2024-09-17 19:55:45,151 - INFO - split completed in 0.56 seconds.
+2024-09-17 21:40:13,555 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 21:40:14,145 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 21:40:14,145 - ERROR - '<=' not supported between instances of 'str' and 'int'
+2024-09-17 21:40:14,145 - INFO - split completed in 0.59 seconds.
+2024-09-17 21:42:02,950 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 21:42:03,558 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 21:42:03,559 - ERROR - '<=' not supported between instances of 'str' and 'int'
+2024-09-17 21:42:03,559 - INFO - split completed in 0.61 seconds.
+2024-09-17 21:42:33,240 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 21:42:33,840 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 21:42:33,841 - ERROR - '<=' not supported between instances of 'str' and 'int'
+2024-09-17 21:42:33,841 - INFO - split completed in 0.60 seconds.
+2024-09-17 21:44:21,816 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 21:44:22,450 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 21:44:22,450 - ERROR - '<=' not supported between instances of 'str' and 'int'
+2024-09-17 21:44:22,450 - INFO - split completed in 0.63 seconds.
+2024-09-17 21:44:46,911 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-17 21:44:47,520 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-17 21:44:47,520 - ERROR - '<=' not supported between instances of 'str' and 'int'
+2024-09-17 21:44:47,523 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/manojkumargalla/PostProcess/notebooks/Split_WSI.py", line 81, in split
+    pool.map(process_file, files, tiles_path)
+  File "/blue/pinaki.sarder/manojkumargalla/.conda/envs/resn/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/blue/pinaki.sarder/manojkumargalla/.conda/envs/resn/lib/python3.8/multiprocessing/pool.py", line 485, in _map_async
+    result = MapResult(self, chunksize, len(iterable), callback,
+  File "/blue/pinaki.sarder/manojkumargalla/.conda/envs/resn/lib/python3.8/multiprocessing/pool.py", line 797, in __init__
+    if chunksize <= 0:
+TypeError: '<=' not supported between instances of 'str' and 'int'
+
+2024-09-17 21:44:47,523 - INFO - split completed in 0.61 seconds.
+2024-09-18 00:13:00,429 - ERROR - No such comm target registered: jupyter.widget.control
+2024-09-18 00:13:00,447 - WARNING - No such comm: e27e2ebd-448d-4074-8c32-69f3251954e1
+2024-09-18 00:17:08,587 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:17:09,391 - ERROR - There was an error in splitting WSI images into tiles
+2024-09-18 00:17:09,391 - ERROR - '<=' not supported between instances of 'str' and 'int'
+2024-09-18 00:17:09,393 - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/manojkumargalla/PostProcess/notebooks/Split_WSI.py", line 81, in split
+    with mp.Pool(processes=mp.cpu_count()) as pool:
+  File "/blue/pinaki.sarder/manojkumargalla/.conda/envs/resn/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/blue/pinaki.sarder/manojkumargalla/.conda/envs/resn/lib/python3.8/multiprocessing/pool.py", line 485, in _map_async
+    result = MapResult(self, chunksize, len(iterable), callback,
+  File "/blue/pinaki.sarder/manojkumargalla/.conda/envs/resn/lib/python3.8/multiprocessing/pool.py", line 797, in __init__
+    if chunksize <= 0:
+TypeError: '<=' not supported between instances of 'str' and 'int'
+
+2024-09-18 00:17:09,394 - INFO - split completed in 0.81 seconds.
+2024-09-18 00:18:11,464 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:18:11,948 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009782_PAS_1of2.svs
+2024-09-18 00:18:11,948 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009781_PAS_2of2.svs
+2024-09-18 00:18:16,466 - ERROR - Exception while processing file name: S-1908-009782_PAS_1of2 - name 'tileSize' is not defined
+2024-09-18 00:18:16,985 - ERROR - Exception while processing file name: S-1908-009781_PAS_2of2 - name 'tileSize' is not defined
+2024-09-18 00:18:17,570 - INFO - Finished splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:18:17,571 - INFO - split completed in 6.11 seconds.
+2024-09-18 00:19:09,061 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:19:09,542 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009782_PAS_1of2.svs
+2024-09-18 00:19:09,542 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009781_PAS_2of2.svs
+2024-09-18 00:19:13,294 - ERROR - Exception while processing file name: S-1908-009782_PAS_1of2 - name 'tileSize' is not defined
+2024-09-18 00:19:13,753 - ERROR - Exception while processing file name: S-1908-009781_PAS_2of2 - name 'tileSize' is not defined
+2024-09-18 00:19:14,304 - INFO - Finished splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:19:14,305 - INFO - split completed in 5.24 seconds.
+2024-09-18 00:20:35,892 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:20:36,380 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009782_PAS_1of2.svs
+2024-09-18 00:20:36,380 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009781_PAS_2of2.svs
+2024-09-18 00:21:38,350 - INFO - Finished splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:21:38,351 - INFO - split completed in 62.46 seconds.
+2024-09-18 00:39:27,515 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:39:28,081 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009782_PAS_1of2.svs
+2024-09-18 00:39:28,081 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009781_PAS_2of2.svs
+2024-09-18 00:40:17,753 - INFO - Finished splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:40:17,755 - INFO - split completed in 50.24 seconds.
+2024-09-18 00:40:23,969 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 00:40:52,317 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 00:42:05,702 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 00:42:21,543 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 00:42:21,543 - INFO - Began splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:42:22,028 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009782_PAS_1of2.svs
+2024-09-18 00:42:22,028 - INFO - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis/S-1908-009781_PAS_2of2.svs
+2024-09-18 00:42:22,036 - INFO - Splitting file name: S-1908-009782_PAS_1of2 nx: 81712    ny: 28550       downsample: 32
+2024-09-18 00:42:22,038 - INFO - Splitting file name: S-1908-009781_PAS_2of2 nx: 95663    ny: 41940       downsample: 32
+2024-09-18 00:42:26,797 - INFO - ix: 0/159, saved 0 images!
+2024-09-18 00:42:27,118 - INFO - ix: 10/159, saved 2 images!
+2024-09-18 00:42:27,789 - INFO - ix: 0/186, saved 0 images!
+2024-09-18 00:42:27,896 - INFO - ix: 10/186, saved 0 images!
+2024-09-18 00:42:37,924 - INFO - ix: 20/159, saved 90 images!
+2024-09-18 00:42:37,975 - INFO - ix: 30/159, saved 0 images!
+2024-09-18 00:42:38,025 - INFO - ix: 40/159, saved 0 images!
+2024-09-18 00:42:38,076 - INFO - ix: 50/159, saved 0 images!
+2024-09-18 00:42:38,127 - INFO - ix: 60/159, saved 0 images!
+2024-09-18 00:42:38,178 - INFO - ix: 70/159, saved 0 images!
+2024-09-18 00:42:38,229 - INFO - ix: 80/159, saved 0 images!
+2024-09-18 00:42:38,280 - INFO - ix: 90/159, saved 0 images!
+2024-09-18 00:42:38,331 - INFO - ix: 100/159, saved 0 images!
+2024-09-18 00:42:38,382 - INFO - ix: 110/159, saved 0 images!
+2024-09-18 00:42:38,719 - INFO - ix: 120/159, saved 2 images!
+2024-09-18 00:42:38,770 - INFO - ix: 130/159, saved 0 images!
+2024-09-18 00:42:39,300 - INFO - ix: 140/159, saved 4 images!
+2024-09-18 00:42:45,130 - INFO - ix: 20/186, saved 145 images!
+2024-09-18 00:42:50,147 - INFO - ix: 30/186, saved 41 images!
+2024-09-18 00:42:50,222 - INFO - ix: 40/186, saved 0 images!
+2024-09-18 00:42:50,296 - INFO - ix: 50/186, saved 0 images!
+2024-09-18 00:42:50,371 - INFO - ix: 60/186, saved 0 images!
+2024-09-18 00:42:50,440 - INFO - ix: 150/159, saved 89 images!
+2024-09-18 00:42:50,620 - INFO - ix: 70/186, saved 0 images!
+2024-09-18 00:42:50,697 - INFO - ix: 80/186, saved 0 images!
+2024-09-18 00:42:50,771 - INFO - ix: 90/186, saved 0 images!
+2024-09-18 00:42:50,845 - INFO - ix: 100/186, saved 0 images!
+2024-09-18 00:42:50,919 - INFO - ix: 110/186, saved 0 images!
+2024-09-18 00:42:50,993 - INFO - ix: 120/186, saved 0 images!
+2024-09-18 00:42:51,068 - INFO - ix: 130/186, saved 0 images!
+2024-09-18 00:42:51,142 - INFO - ix: 140/186, saved 0 images!
+2024-09-18 00:42:51,216 - INFO - ix: 150/186, saved 0 images!
+2024-09-18 00:42:51,291 - INFO - ix: 160/186, saved 0 images!
+2024-09-18 00:43:08,042 - INFO - ix: 170/186, saved 138 images!
+2024-09-18 00:43:12,489 - INFO - ix: 180/186, saved 35 images!
+2024-09-18 00:43:13,009 - INFO - Finished splitting tiles from /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 00:43:13,010 - INFO - split completed
+2024-09-18 00:43:13,010 - INFO - split completed in 51.47 seconds.
+2024-09-18 00:45:56,514 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 00:46:40,116 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 01:01:56,498 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 01:03:26,093 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 01:03:26,093 - INFO - started inference on tiles - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 01:03:28,161 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 01:03:28,161 - INFO - started inference on tiles - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 01:06:52,603 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 01:06:52,603 - INFO - started inference on tiles - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 01:06:59,836 - INFO - => loaded checkpoint '/home/manojkumargalla/PostProcess/models/ResUnetTrain_checkpoint_0209.pt' (epoch 74)
+2024-09-18 01:36:09,478 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 01:36:09,478 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 01:37:13,186 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 01:37:13,186 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 01:37:13,187 - INFO - processing file - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/predicted_wsi_tiles/S-1908-009781_PAS_2of2/
+2024-09-18 01:37:24,394 - INFO - processing file - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/predicted_wsi_tiles/S-1908-009782_PAS_1of2/
+2024-09-18 02:08:49,259 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 02:08:49,259 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 02:08:49,259 - INFO - annotations_path path exists, hence not saving any annotations
+2024-09-18 02:09:41,936 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 02:09:41,936 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 02:09:41,936 - INFO - annotations_path path exists, hence not saving any annotations
+2024-09-18 02:10:02,561 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 02:10:02,562 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 02:10:02,562 - INFO - annotations_path path exists, hence not saving any annotations
+2024-09-18 02:10:02,562 - INFO - started filtering tiles to - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsis
+2024-09-18 02:10:02,563 - INFO - Saving binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:10:12,374 - INFO - Succesfully saved binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:10:12,374 - INFO - Started applying Post Processing on each WSI image
+2024-09-18 02:10:13,210 - INFO - performing distance transform - S-1908-009782_PAS_1of2
+2024-09-18 02:11:15,157 - INFO - Saving filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:11:15,898 - INFO - Successfully filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:11:17,172 - INFO - performing distance transform - S-1908-009781_PAS_2of2
+2024-09-18 02:13:03,353 - INFO - Saving filtered image - S-1908-009781_PAS_2of2
+2024-09-18 02:13:04,044 - INFO - Successfully filtered image - S-1908-009781_PAS_2of2
+2024-09-18 02:13:04,045 - INFO - Finished applying Post Processing on each WSI image
+2024-09-18 02:13:04,045 - INFO - Finished saving filtered tiles
+2024-09-18 02:26:10,272 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 02:26:10,272 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 02:26:10,272 - INFO - annotations_path path exists, hence not saving any annotations
+2024-09-18 02:26:10,272 - INFO - started filtering tiles to - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsis
+2024-09-18 02:26:10,273 - INFO - Saving binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:26:22,888 - INFO - Succesfully saved binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:26:22,888 - INFO - Started applying Post Processing on each WSI image
+2024-09-18 02:26:23,842 - INFO - performing distance transform - S-1908-009782_PAS_1of2
+2024-09-18 02:27:25,738 - INFO - Saving filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:27:26,210 - INFO - Successfully filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:27:27,554 - INFO - performing distance transform - S-1908-009781_PAS_2of2
+2024-09-18 02:28:00,819 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 02:28:00,819 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 02:28:00,819 - INFO - annotations_path path exists, hence not saving any annotations
+2024-09-18 02:28:00,819 - INFO - started filtering tiles to - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsis
+2024-09-18 02:28:00,819 - INFO - Saving binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:28:11,773 - INFO - Succesfully saved binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:28:11,773 - INFO - Started applying Post Processing on each WSI image
+2024-09-18 02:28:12,634 - INFO - performing distance transform - S-1908-009782_PAS_1of2
+2024-09-18 02:29:14,439 - INFO - Saving filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:29:14,892 - INFO - Successfully filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:29:16,262 - INFO - performing distance transform - S-1908-009781_PAS_2of2
+2024-09-18 02:31:02,377 - INFO - Saving filtered image - S-1908-009781_PAS_2of2
+2024-09-18 02:31:03,061 - INFO - Successfully filtered image - S-1908-009781_PAS_2of2
+2024-09-18 02:31:03,062 - INFO - Finished applying Post Processing on each WSI image
+2024-09-18 02:31:03,062 - INFO - Finished saving filtered tiles
+2024-09-18 02:31:03,062 - INFO - started Splitting filtered WSIs to - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsi_tiles/
+2024-09-18 02:31:03,063 - INFO - Finished Splitting filtered WSIs
+2024-09-18 02:34:30,817 - INFO - tiles path exists, hence not splitting any wsis
+2024-09-18 02:34:30,817 - INFO - predicted tiles path exists, hence not running any predictions
+2024-09-18 02:34:30,817 - INFO - annotations_path path exists, hence not saving any annotations
+2024-09-18 02:34:30,817 - INFO - started filtering tiles to - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsis
+2024-09-18 02:34:30,818 - INFO - Saving binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:34:43,862 - INFO - Succesfully saved binary masks and numpy arrays for the WSIS in /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis
+2024-09-18 02:34:43,863 - INFO - Started applying Post Processing on each WSI image
+2024-09-18 02:34:44,707 - INFO - performing distance transform - S-1908-009782_PAS_1of2
+2024-09-18 02:35:46,354 - INFO - Saving filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:35:51,637 - INFO - Successfully filtered image - S-1908-009782_PAS_1of2
+2024-09-18 02:35:53,014 - INFO - performing distance transform - S-1908-009781_PAS_2of2
+2024-09-18 02:37:39,000 - INFO - Saving filtered image - S-1908-009781_PAS_2of2
+2024-09-18 02:37:48,073 - INFO - Successfully filtered image - S-1908-009781_PAS_2of2
+2024-09-18 02:37:48,074 - INFO - Finished applying Post Processing on each WSI image
+2024-09-18 02:37:48,074 - INFO - Finished saving filtered tiles
+2024-09-18 02:37:48,074 - INFO - started Splitting filtered WSIs to - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsi_tiles/
+2024-09-18 02:38:25,607 - INFO - Finished Splitting filtered WSIs
+2024-09-18 02:38:25,608 - INFO - started Saving annotations to - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/Filtered_TBM_Annotations
+2024-09-18 02:38:25,610 - INFO - processing file - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsi_tiles/S-1908-009781_PAS_2of2/
+2024-09-18 02:38:34,083 - INFO - processing file - /blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsi_tiles/S-1908-009782_PAS_1of2/
+2024-09-18 02:38:37,595 - INFO - Finished Saving annotations

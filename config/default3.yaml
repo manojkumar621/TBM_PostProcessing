@@ -1,13 +1,13 @@
 train: "/home/manojkumargalla/ResUNet/data/train"
-valid: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/WSI_tiles/"
-# valid: "/home/manojkumargalla/ResUNet/tbm_mini_dataset/test/"
-# pred: "/home/manojkumargalla/ResUNet/tbm_mini_dataset/test/predicted_mask_crop/"
-pred: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/WSI_tiles_predictions/"
+valid: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/batch1/3/tiles_3/"
+# valid: "/home/manojkumargalla/ResUNet/data/test/input_crop/"
+# pred: "/home/manojkumargalla/ResUNet/data/test/predicted_mask_crop"
+pred: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/batch1/3/predicted_tiles_3/"
 
 log: "logs"
 logging_step: 10
 validation_interval: 100 # Save and valid have same interval
-checkpoints: "/home/manojkumargalla/PostProcess/models/ResUnetTrain5_checkpoint_1000.pt"
+checkpoints: "/home/manojkumargalla/PostProcess/models/ResUnetTrain_checkpoint_0209.pt"
 
 batch_size: 16
 lr: 0.001

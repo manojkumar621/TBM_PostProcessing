@@ -1,0 +1,16 @@
+train: "/home/manojkumargalla/ResUNet/data/train"
+# valid: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/WSI_tiles_new/"
+valid: "/home/manojkumargalla/ResUNet/data/test2/test"
+pred: "/home/manojkumargalla/ResUNet/data/test/predicted_mask_crop_newmodel2/"
+# pred: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/WSI_tiles_predictions_new/"
+
+log: "logs"
+logging_step: 10
+validation_interval: 100 # Save and valid have same interval
+checkpoints: "/home/manojkumargalla/ResUNet/newcheckpoints/ResUnetTrain/ResUnetTrain_checkpoint_36000.pt"
+
+batch_size: 16
+lr: 0.001
+RESNET_PLUS_PLUS: True
+IMAGE_SIZE: 512
+CROP_SIZE: 512
