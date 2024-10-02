@@ -1,27 +1,35 @@
 
 
-#split wsis
+#Step 1 : split wsis into small tiles. 
+# Input - path to WSIs
+# Output - path to store the tiles
 wsis_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsis"
 wsi_tiles_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsi_tiles"
 
-#run model inference on tiles
+#Step 2: run model inference on tiles
+#Input: 1. Name of the model to inference, 2. tiles path, 3. Model checkpoint path
+#Output: Path to store the predicted masks
 name: "ResUnetTrain3"
 valid: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/wsi_tiles"
 pred: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/predicted_wsi_tiles"
 checkpoints: "/home/manojkumargalla/PostProcess/models/ResUnetTrain_checkpoint_0209.pt"
 
-#Save annotations
+#Step 3, 5: Save DSA annotations JSON files from predicted and filtered tiles
+# Input: Predicted/Filtered tiles path
+#Output: path to store Predicted/Filtered Annotations JSON files
 predicted_annotations_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/TBM_Annotations"
 filtered_annotations_path: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/Filtered_TBM_Annotations"
 
-#filter_masks
+#Step 4: Perform post-processing on the filtered wsis using the predicted and tubule annotations
+# Input: 1. Predicted annotations path, 2. Tubules annotations path
+# Output: 1. Path to store tiles of the post processed WSIs, 2. Path to store binaries of the filtered images ( Intermediate output)
 filtered_wsis: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsis"
 filtered_tiles: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/filtered_wsi_tiles/"
 tubule_annotations: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/Tubule_Annotations"
 binaries: "/blue/pinaki.sarder/manojkumargalla/PostProcess/data/model2/test/binaries"
 
 
-#Train
+# Edit the hyperparameters here to train the model.
 train: "/home/manojkumargalla/ResUNet/data/train"
 log: "logs"
 logging_step: 10
